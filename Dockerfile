@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM alpine
 MAINTAINER subbu
 RUN apt-get update && apt-get install -y git maven
 RUN apt-get install -y openjdk-8-jdk 
